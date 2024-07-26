@@ -1,6 +1,7 @@
+import { gsap } from "gsap"
+
+
 const sec3_wrapper = document.querySelector('.cheer-sector3__container')
-
-
 
 const Engine = Matter.Engine
 const World = Matter.World

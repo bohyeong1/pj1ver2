@@ -4,6 +4,9 @@ function wait(time){
     return new Promise((res)=>{setTimeout(res, time)})
 }
 
+import { gsap } from "gsap"
+import ScrollTrigger from "gsap/ScrollTrigger"
+import ScrollSmoother from "gsap/ScrollSmoother"
 
 //gnb라인
 

@@ -1,6 +1,7 @@
+import { gsap } from "gsap"
+
+
 export async function init_pixi(wrapper_class,canvas_class){
-
-
     ///슬라이더 요소 imgs
     const img_data = ['../../../project-img/img/main/sec4/s4-3.jpg','../../../project-img/img/cheer/cheer1.jpg',
         '../../../project-img/img/main/sec5/sec5-7.jpg','../../../project-img/img/main/sec4/s4-4.jpg', '../../../project-img/img/main/sec5/sec5-3.jpg',

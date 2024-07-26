@@ -1,3 +1,9 @@
+import { gsap } from "gsap"
+import ScrollTrigger from "gsap/ScrollTrigger"
+import SplitText from "gsap/SplitText"
+import Flip from "gsap/Flip"
+import ScrollSmoother from "gsap/ScrollSmoother"
+
 ///////////////////////////유틸 함수
 function wait(time){
     return new Promise((res) => setTimeout(res,time))
