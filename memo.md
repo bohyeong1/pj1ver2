@@ -34,4 +34,5 @@ posx = vx = window.innerWidth / 2
 
 //////////////////////////////////////////////////////////////////////// gsap 유료 플러그인 라이센스 정책 위반 하지 않고 웹팩/바벨/vercel로 배포하기
 1. npm install --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader
+2. cdn으로 불러오는 라이브러리 웹팩 번들링 제외(성능향상)
 </pre>

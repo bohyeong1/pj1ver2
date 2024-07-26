@@ -1,15 +1,16 @@
 const path = require('path')
+const glob = require('glob')
 
 module.exports = {
     mode: 'production',
     entry: glob.sync('./src/*.js').reduce((entries, file) => {
         const entry = path.basename(file, path.extname(file))
-        entries[entry] = file
+        entries[entry] = path.resolve(__dirname, file)
         return entries
     }, {}),
     output: {
-    filename: '[name].js',
-    path: path.resolve(__dirname, 'public/bundleJs'),
+        filename: '[name].js',
+        path: path.resolve(__dirname, 'public/bundleJs'),
     },
     module: {
         rules: [
