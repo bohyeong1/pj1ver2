@@ -2,9 +2,10 @@
   "name": "pj1-ver0.02-",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "loadPages/loadPages.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
