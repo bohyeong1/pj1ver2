@@ -1,20 +1,6 @@
 {
     "version": 2,
     "public":true,
-    "builds": [
-        {
-          "src": "font/**/*",
-          "use": "@vercel/static"
-        },
-        {
-          "src": "project-img/**/*",
-          "use": "@vercel/static"
-        },
-        {
-          "src":"public/**/*",
-          "use":"@vercel/static"
-        }
-      ],
     "routes": [
       {
         "src": "/project-img/(.*)",
