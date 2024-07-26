@@ -46,7 +46,7 @@ function setup(){
     for (let i = 0; i < 21; i++){
         let x = random(400, width - 400)
         let y = random(200, height - 200)
-        items.push(new Item(x,y, `../project-img/img/main/sec5/sec5-${i + 1}.jpg`))
+        items.push(new Item(x,y, `./project-img/img/main/sec5/sec5-${i + 1}.jpg`))
     }
 
     
