@@ -3,6 +3,14 @@
     "public":true,
     "routes": [
       {
+        "src": "/project-img/(.*)",
+        "dest": "/project-img/$1"
+      },
+      {
+        "src": "/font/(.*)",
+        "dest": "/font/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "/public/$1"
       }
