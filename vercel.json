@@ -1,20 +1,5 @@
 {
     "version": 2,
-        "builds": [
-        {
-        "src": "**",
-        "use": "@vercel/static"
-        }
-    ],
-    "buildCommand": "npm install ./gsap-bonus.tgz && npm install",
-    "cleanUrls": true,
-    "ignore": [
-        "package.json",
-        "vercel.json",
-        "gsap-bonus.tgz",
-        "node_modules",
-        "package-lock"
-    ],
     "routes": [
         { "src": "/", "dest": "/index.html" },
         { "src": "/main", "dest": "/public/main/main.html" },
