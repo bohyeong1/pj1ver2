@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="../../../node_modules/gsap/dist/gsap.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/ScrollSmoother.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/Flip.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/SplitText.min.js"></script>   
+    
+</head>
+<body>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!-- 섹터 1 -->
+            <div class="gallery-sector1">
+                <div class="gallery-sector1__load-wrapper">
+                    <div class="gallery-sector1__load-container">
+                        <p class="gallery-sector1__text">Creator</p>
+                        <p class="gallery-sector1__text">SeoBoHyeong</p>
+                        <p class="gallery-sector1__text">Hanwha</p>
+                        <p class="gallery-sector1__text">Eagles</p>
+                        <p class="gallery-sector1__text">gallery</p>
+                    </div>
+                </div>
+
+                <!-- sec1 - contents -->
+                <div class="gallery-sector1__contents-container">
+                    <div class="gallery-sector1__gallery">
+                        <div class="gallery-sector1__minimap">
+                            <div class="gallery-sector1__preview">
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery1.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery2.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery3.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery4.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery5.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery6.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery7.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery8.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-preview">
+                                    <img src="../../../project-img/img/slide/gallery9.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__active-img-indicator"></div>
+                        </div>
+                        
+                        <div class="gallery-sector1__images">
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery1.jpg">
+                                    <img src="../../../project-img/img/slide/gallery1.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_01.jgp</p>
+                                    <p>01</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery2.jpg">
+                                    <img src="../../../project-img/img/slide/gallery2.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_02.jgp</p>
+                                    <p>02</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery3.jpg">
+                                    <img src="../../../project-img/img/slide/gallery3.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_03.jgp</p>
+                                    <p>03</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery4.jpg">
+                                    <img src="../../../project-img/img/slide/gallery4.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_04.jgp</p>
+                                    <p>04</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery5.jpg">
+                                    <img src="../../../project-img/img/slide/gallery5.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_05.jgp</p>
+                                    <p>05</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery6.jpg">
+                                    <img src="../../../project-img/img/slide/gallery6.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_06.jgp</p>
+                                    <p>06</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery7.jpg">
+                                    <img src="../../../project-img/img/slide/gallery7.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_07.jgp</p>
+                                    <p>07</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery8.jpg">
+                                    <img src="../../../project-img/img/slide/gallery8.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_08.jgp</p>
+                                    <p>08</p>
+                                </div>
+                            </div>
+                            <div class="gallery-sector1__item">
+                                <div class="gallery-sector1__item-img" data-url="../../../project-img/img/slide/gallery9.jpg">
+                                    <img src="../../../project-img/img/slide/gallery9.jpg" alt="">
+                                </div>
+                                <div class="gallery-sector1__item-copy">
+                                    <p>img_09.jgp</p>
+                                    <p>09</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 섹션2 -->
+            <div class="gallery-sector2">
+                <div class="gallery-sector2__container">
+                    <div class="gallery-sector2__img-wrapper">
+                        <img src="../../../project-img/img/slide/gal-sec2-1.jpg" alt="">
+                        <img class="gallery-sector2__move-img" src="../../../project-img/img/slide/gal-sec2-2.jpg" alt="">
+                    </div>
+                    <div class="gallery-sector2__text-wrapper">
+                        <p>1999년 한국시리즈 우승팀 - 한화이글스!</p>
+                        <p>1999년, 롯데 자이언츠와 한화 이글스가 1990년대 마지막에 벌인 한국 시리즈였다.
+                            매직리그 2위였던 한화 이글스는 구대성을 앞세워                              
+                            체력이 다 빠진 롯데 자이언츠를 4승 1패로 비교적 쉽게 꺾고 창단 첫 우승을 따낸 시리즈이다.
+                        </p>
+                        <p>MVP - 구대성(No.15)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 섹션 3 -->
+             <div class="gallery-sector3">
+
+                <span class="gallery-sector3__lines"></span>
+                <span class="gallery-sector3__lines"></span>
+                <div class="gallery-sector3__container">
+                    <div class="gallery-sector3__img-wrapper">
+                        <div class="gallery-sector3__img-container">
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-4.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-5.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-6.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-7.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../../../project-img/img/slide/gal-slide-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery-sector3__img-overlay"></div>
+                    </div>
+                    <div class="gallery-sector3__logo">
+                        <p>Enjoy my gallery</p>
+                    </div>
+                    <div class="gallery-sector3__text-container">
+                        <div class="gallery-sector3__left-text">
+                            <p>T: 010-5508-6125</p>
+                            <p>E: tjqhgud9104@naver.com</p>
+                        </div>
+                        <div class="gallery-sector3__right-text">
+                            <button>contact</button>
+                            <span>Creator</span>
+                            <span>Seo Bo Hyeong</span>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+        <!-- 모달창 -->
+        <div class="gallery-modal">
+            <div class="gallery-modal__wrapper">
+                <svg class="gallery-modal__transition" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="gallery_modal__path" stroke="none" fill="#36301D"  stroke-width="2px"  dur="10s"   vector-effect="non-scaling-stroke"
+                    d="M 0 100 V 100 Q 50 100 100 100 V 100 z"/>               
+    
+                    <div id="gallery-modal__wrap">
+                        <div class="gallery-modal__block">
+                            <div class="gallery-modal__gallerys">
+                                <img>
+                            </div>
+                        </div>
+                    </div>
+    
+                </svg>
+            </div>
+            <button id="gallery-modal__closeBtn">Close</button>
+        </div>
+    
+    
+        <!-- 마우스호버이벤트박스 -->
+        <div id="mouse-cursor">
+            <div id="inner-cursor">More</div>
+        </div>
+    
+        <!-- 메인 메뉴-->
+        <header>
+            <div class="menu-container">
+                <div class="menu-wrapper">
+                    <div class="root_menu_box"></div>
+                </div>
+    
+                <div class="main-menu" state ='false'>                
+                    <button class="manu-click-btn">menu</button>
+                    <div class="manu-click-img">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>    
+        </header>
+    <script src="gallery.js"></script>
+</body>
+</html>

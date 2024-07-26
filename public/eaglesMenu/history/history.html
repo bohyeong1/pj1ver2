@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+    <link rel="stylesheet" href="history.css">
+    <script src="../../../node_modules/gsap/dist/gsap.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/ScrollSmoother.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/Flip.min.js"></script>
+    <script src="../../../node_modules/gsap/dist/SplitText.min.js"></script>   
+
+</head>
+<body>     
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!-- 섹터1 -->
+             <!-- 초기로딩 텍스트에니메이션 -->
+            <div class="his-sector1">
+                <div class="his-sector1__container">
+                    <p class="his-sector1__text">Creator</p>
+                    <p class="his-sector1__text">SeoBoHyeong</p>
+                    <p class="his-sector1__text">Hanwha</p>
+                    <p class="his-sector1__text">Eagles</p>
+                    <p class="his-sector1__text">History</p>
+                </div>
+
+                <!-- 섹1 보여지는 화면 -->
+                <div class="his-sector1__display-container">
+                    <div class="his-sector1__display">
+                        <div class="his-sector1__display-logo">
+                            <h1 style="color: #ab3429; font-size: 10vw; margin: 0;">HISTORY</h1>
+                        </div>
+                        <div class="his-sector1__display-sublogo" style="font-size: 2vw;">
+                            <p style="margin: 0;">creator SeoBoHyeong</p>
+                        </div>
+                    </div>
+    
+                    <div class="his-sector1__intro">
+                        <p class="his-sector1__intro-text1" style="margin: 0;">
+                            <!-- This is Eagles History Page! Please enjoy your trip back in time -->
+                        </p>
+                        <p class="his-sector1__intro-text2" style="font-size: 2.5vw;">Year 2024</p>
+                    </div>
+    
+                    
+                    <div class="his-sector1__subIntro">
+                        <div class="his-sector1__subIntro-text1">
+                            <p style="font-size: 2vw; font-weight: bold;">대전 그린 컴퓨터학원</p>
+                        </div>
+                        <div class="his-sector1__subIntro-text2">
+                            <p>2023.12.28 ~ 2024.6.21 수료</p>
+                        </div>
+                    </div>
+    
+                    <div class="his-sector1__mainImg">
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                        <div class="his-sector1__mainImg-filter"></div>
+                    </div>
+    
+                    <div class="his-sector1__img">
+                        <div class="his-sector1__img-text1">
+                            <p>year</p>
+                            <p>2024</p>
+                        </div>
+                        <div class="his-sector1__img-text2">
+                            <p>manager</p>
+                            <p>Kim Kyeong Moon</p>
+                        </div>
+                        <div class="his-sector1__img-text3">
+                            <p>championship</p>
+                            <p>1999</p>
+                        </div>
+                        <div class="his-sector1__img-text4">
+                            <p>legend</p>
+                            <p>Jeong Min Cheol</p>
+                            <p>Song Jin Woo</p>
+                            <p>Jang Jong Hoon</p>
+                            <p>Kim Tae Gyun</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            
+        <!--섹터2  -->
+            <div class="his-sector2">
+                <div class="his-sector2__logo">
+                    <h1>Stadium</h1>
+                </div>
+                <span class="his-sector2__row"></span>
+                <div class="his-sector2__container">
+                    <div class="his-sector2__container-imgbox">
+                        <div class="his-sec2__img-wrapper">
+                            <div class="his-sector2__img-container">
+                                <img class="his-sector2__imgs" src="../../../project-img/img/history/his-sec2-1.jpg"></img>
+                            </div>
+                        </div>
+
+                        <div class="his-sector2-text-container">
+                            <p></p>
+                        </div>
+                        <div class="his-sec2__img-wrapper">
+                            <div class="his-sector2__img-container">
+                                <img class="his-sector2__imgs" src="../../../project-img/img/history/his-sec2-3.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="his-sector2__column"></span>
+                    <div class="his-sector2__container-imgbox">
+                        <div class="his-sector2-text-container">
+                            <p></p>
+                        </div>
+
+                        <div class="his-sec2__img-wrapper">
+                            <div class="his-sector2__img-container">
+                                <img class="his-sector2__imgs" src="../../../project-img/img/history/his-sec2-2.jpg"></img>
+                            </div>
+                        </div>
+
+                        <div class="his-sector2-text-container">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <span class="his-sector2__row"></span>
+            </div>
+            
+            <!-- 섹터3 preview(배경화면 색상변경 효과 주는 공간) -->
+             <div class="his-s3-preview">
+                <div class="his-s3-preview__year">
+                    <span>years : 2020 ~ 2024</span>
+                </div>
+                <div class="his-s3-preview__logo">
+                    <h1>SLOGUN</h1>
+                </div>
+
+                <div class="his-s3-preview__fk-wrapper">
+                    <div class="his-s3-preview__fakelogo part1">
+                        <h1>DIFFERENT US</h1>
+                    </div>
+                    <div class="his-s3-preview__fakelogo part2">
+                        <h1>DIFFERENT US</h1>
+                    </div>
+                </div>
+
+                <div></div>
+             </div>
+            <!--섹터3-->
+            <div class="his-sector3">
+                
+                <div class="sec3-logo">
+                    <h2>SLOGUN</h2>
+                </div>
+                <div class="video-wrapper">
+                    <div class="video-box">
+                    </div>
+
+                    <div class="video-box">
+                        <iframe class="innerVideo" width="560" height="315" src="https://www.youtube.com/embed/1bjlg0BOSOU?si=nSv9ER3SjAWKMJx4" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="video-text" id="vid1">
+                            2024years . . . 
+                            <div class="video-text-bottom">
+                                <div>DIFFERENT US</div>
+                                <div class="watch-text">
+                                    <div class="innerText">W</div>
+                                    <div class="innerText">A</div>
+                                    <div class="innerText">T</div>
+                                    <div class="innerText">C</div>
+                                    <div class="innerText">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-box" id="vid2">
+                        <iframe class="innerVideo" width="560" height="315" src="https://www.youtube.com/embed/j6eSNZilj3A?si=IT2lfjjgEUiNffp5" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="video-text">
+                            2023years   9th place
+                            <div class="video-text-bottom">
+                                <div>THE ONLY WAY IS UP</div>
+                                <div class="watch-text">
+                                    <div class="innerText">W</div>
+                                    <div class="innerText">A</div>
+                                    <div class="innerText">T</div>
+                                    <div class="innerText">C</div>
+                                    <div class="innerText">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-box" id="vid3">
+                        <iframe class='innerVideo' width="560" height="315" src="https://www.youtube.com/embed/KL4-TznG3Yc?si=euE6ZsL78-z1ew2M" title="YouTube video player" frameborder="0" autoplay='1'
+                        allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="video-text">
+                            2022years   10th place
+                            <div class="video-text-bottom">
+                                <div>OUR TIME HAS COME</div>
+                                <div class="watch-text">
+                                    <div class="innerText">W</div>
+                                    <div class="innerText">A</div>
+                                    <div class="innerText">T</div>
+                                    <div class="innerText">C</div>
+                                    <div class="innerText">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-box" id="vid4">
+                        <iframe class="innerVideo" width="560" height="315" src="https://www.youtube.com/embed/jo2-xvNIvog?si=ed3uq0OkBD258upQ" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        <div class="video-text">
+                            2021years   10th place
+                            <div class="video-text-bottom">
+                                <div>THIS IS OUR WAY</div>
+                                <div class="watch-text">
+                                    <div class="innerText">W</div>
+                                    <div class="innerText">A</div>
+                                    <div class="innerText">T</div>
+                                    <div class="innerText">C</div>
+                                    <div class="innerText">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-box" id="vid5">
+                        <iframe class='innerVideo' width="560" height="315" src="https://www.youtube.com/embed/DuiGlNRLB9w?si=GEh2D2yh5GKSz2CO" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="video-text">
+                            2020years   10th place
+                            <div class="video-text-bottom">
+                                <div>FAN THE FLAMES</div>
+                                <div class="watch-text">
+                                    <div class="innerText">W</div>
+                                    <div class="innerText">A</div>
+                                    <div class="innerText">T</div>
+                                    <div class="innerText">C</div>
+                                    <div class="innerText">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <!-- 섹터4 -->
+            <div class="his-sector4">
+                <div class="his-sector4__logo">
+                    <h1>LEGEND</h1>
+                </div>  
+                <div class="his-sector4__container">
+                    <div class="his-sector4__lg-players his-s4-default">
+                        <div class="his-sector4__lg-player-wrapper" data-name="Song Jin Woo" data-age="생년월일 : 1965년 2월 17일" data-enter="데뷔 : 1988년 1차 지명"
+                        data-des="~~~">
+                            <div class="his-sector4__lg-player-box">
+                                <img class="his-sector4__lg-img" src="../../../project-img/img/main/sec6/sec6-1.jpg"></img>
+                            </div>
+                        </div>
+                        <div class="his-sector4__lg-player-wrapper" data-name="Kim Tae Gyun" data-age="생년월일 : 1965년 2월 17일" data-enter="데뷔 : 1988년 1차 지명"
+                        data-des="~~~">
+                            <div class="his-sector4__lg-player-box">
+                                <img class="his-sector4__lg-img" src="../../../project-img/img/main/sec6/sec6-2.jpg"></img>
+                            </div>
+                        </div>
+                        <div class="his-sector4__lg-player-wrapper" data-name="Jeong Min Cheol" data-age="생년월일 : 1965년 2월 17일" data-enter="데뷔 : 1988년 1차 지명"
+                        data-des="~~~">                            
+                            <div class="his-sector4__lg-player-box">
+                                <img class="his-sector4__lg-img" src="../../../project-img/img/main/sec6/sec6-3.jpg"></img>
+                            </div>
+                        </div>
+                        <div class="his-sector4__lg-player-wrapper" data-name="Gu Dae Seong" data-age="생년월일 : 1965년 2월 17일" data-enter="데뷔 : 1988년 1차 지명"
+                        data-des="~~~">
+                            <div class="his-sector4__lg-player-box">
+                                <img class="his-sector4__lg-img" src="../../../project-img/img/main/sec6/sec6-4.jpg"></img>
+                            </div>
+                        </div>
+
+                        <!-- sec4 description -->
+                         <div class="his-sector4__description">
+                            <div class="his-sec4__close">close</div>
+                            <div class="his-sec4__des-title">
+                                <h1></h1>
+                            </div>
+                            <div class="his-sec4__des-age">
+                                <h2></h2>
+                            </div>
+                            <div class="his-sec4__des-enter">
+                                <h2></h2>
+                            </div>
+                            <div class="his-sec4__des-contents">
+                                <p></p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 섹터 5-->
+            <div class="his-sector5">
+                <div class="his-sector5-preview__logo">
+                    <span>H</span>
+                    <span>I</span>
+                    <span>S</span>
+                    <span>T</span>
+                    <span>O</span>
+                    <span>R</span>
+                    <span>Y</span>
+                </div>
+
+                <div class="his-sector5__contents">
+                    <p style="font-size: 5vw; font-family:eng-font;">Eagles History</p>
+                    <p> 한화그룹이 운영하는 KBO 리그의 프로 야구단. 1986년 3월 8일 빙그레 이글스라는 구단명으로 창단했으며 1993년 11월 1일 명칭이 현재 명칭인 한화 이글스로 변경되었다. 연고지는 대전광역시를 비롯한 충청도이며 홈구장은 중구 부사동에 위치한 대전 한화생명 이글스파크이다.[11] 제2구장으로 청주종합운동장 야구장을 사용 중이며,[12] 2군은 서산 야구장을 사용하는 중이다.
+                        구단의 지배구조는 (주)한화(40%, 120,000주) / 한화솔루션(주)(40%, 120,000주) / (주)한화갤러리아타임월드(10%, 30,000주) / 김승연 한화 회장(10%, 30,000주)로 구성되어 있다.
+                        <br>
+                        팀의 상징색은 주황색(빙그레 이글스 시절) - 빨강색(팀명 변경 원년인 1994년부터 2007년 시범경기까지) - 주황색(한화그룹이 CI를 변경한 2007년부터) 순으로 바뀌어 왔다.
+                        1993년을 끝으로 빙그레 이글스에서 한화 이글스로 변경되면서 기존의 엠블럼을 다듬은 로고를 사용했다. 그러다가 2006년, 한화그룹의 CI 변경과 함께 한화 이글스도 엠블럼 변경 작업에 들어갔고 2007년 KBO 시범경기 직후 변경된 엠블럼을 발표했다.
+                        타 구단들의 엠블럼 현대화[13]로 인해 현재 사용중인 엠블럼 중 가장 역사가 깊은 엠블럼이 됐다.
+                        <br>
+                        빙그레 이글스 시절에는 2위를 4번이나 하는 강팀이었으나 한화가 된 이후에는 한동안 중위권을 전전했다. 이글스는 원년 이후 2008년까지 최하위는 단 한 번도 없었지만, 그 대신 1992년 이후로 2008년까지 정규시즌 1위는 물론, 정규시즌 2위조차도 없었다. 이 중에는 끈질긴 승부로 사상 첫 우승을 이룬 1999년[1], 2006년[2]도 포함되어 있었다.
+                        다만 김인식이 떠나고 류현진이 본격적으로 고독한 에이스로 활약하기 시작한 2008년부터는 장기적 암흑기가 시작되며 약체가 되었다.
+                    </p>
+                </div>            
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <!-- 마우스호버이벤트박스 -->
+    <div id="mouse-cursor">
+        <div id="inner-cursor">More</div>
+    </div>
+
+    <!-- 메인 메뉴-->
+    <header>
+        <div class="menu-container">
+            <div class="menu-wrapper">
+                <div class="root_menu_box"></div>
+            </div>
+
+            <div class="main-menu" state ='false'>                
+                <button class="manu-click-btn">menu</button>
+                <div class="manu-click-img">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+        </div>    
+    </header>
+
+
+  
+    <script src="history.js"></script>
+</body>
+</html>
