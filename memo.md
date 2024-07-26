@@ -29,4 +29,9 @@ gsap.timeline으로 사용 해볼 것/
 ////////////////여러개 변수 할당
 posx = vx = window.innerWidth / 2 
 오른쪽에서 왼쪽으로 읽는 자바스크립트 할당 연산자를 이용한 기법
+
+
+
+//////////////////////////////////////////////////////////////////////// gsap 유료 플러그인 라이센스 정책 위반 하지 않고 웹팩/바벨/vercel로 배포하기
+1. npm install --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader
 </pre>

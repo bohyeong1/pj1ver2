@@ -166,7 +166,7 @@ const displayText = async() => {
 
     await wait(200)
 
-    location.href = './public/main/main.html'
+    location.href = './main/main.html'
 }
 
 function wait(time){

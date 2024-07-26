@@ -1,10 +1,10 @@
 {
     "version": 2,
+    "public":true,
     "routes": [
-        { "src": "/", "dest": "/index.html" },
-        { "src": "/main", "dest": "/public/main/main.html" },
-        { "src": "/eaglesMenu/cheer", "dest": "/public/eaglesMenu/cheer/cheer.html" },
-        { "src": "/eaglesMenu/gallery", "dest": "/public/eaglesMenu/gallery/gallery.html" },
-        { "src": "/eaglesMenu/player", "dest": "/public/eaglesMenu/player/player.html" }
+      {
+        "src": "/(.*)",
+        "dest": "/public/$1"
+      }
     ]
 }
