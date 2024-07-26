@@ -6,15 +6,15 @@
 }
 @font-face{
     font-family:'eng-font';
-    src:url('../../../font/FjallaOne-Regular.ttf')
+    src:url('../../font/FjallaOne-Regular.ttf')
 }
 @font-face{
     font-family:'eng2-font';
-    src:url('../../../font/static/Karla-Italic.ttf')
+    src:url('../../font/static/Karla-Italic.ttf')
 }
 @font-face{
     font-family: 'eng3-font';
-    src: url('../../../font/eng3/PlayfairDisplay-Regular.ttf');
+    src: url('../../font/eng3/PlayfairDisplay-Regular.ttf');
 }
 
 

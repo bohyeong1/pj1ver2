@@ -12,7 +12,7 @@
 }
 @font-face{
     font-family:'eng-font';
-    src:url('../../../font/FjallaOne-Regular.ttf')
+    src:url('../../font/FjallaOne-Regular.ttf')
 }
 
 *{
@@ -216,7 +216,7 @@ body{
 .his-sector1__mainImg-filter{
     position: absolute;
     width: 600px;   height: 200px;
-    background: url('../../../project-img/img/history/his-main.jpg') no-repeat 50% 50%;
+    background: url('../../project-img/img/history/his-main.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 .his-sector1__mainImg-filter:nth-child(1){
