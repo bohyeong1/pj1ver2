@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gsap": "file:./gsap-bonus.tgz"
+    "gsap": "npm:@gsap/shockingly@^3.12.5"
   }
 }
