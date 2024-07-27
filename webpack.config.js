@@ -21,6 +21,31 @@ module.exports = {
             loader: 'babel-loader',
             },
         },
+        // {
+        //     test: /\.(jpg|jpeg)$/i,
+        //     include: [
+        //         path.resolve(__dirname, 'src/srcImg'),
+        //       ],
+        //     use: [
+        //       {
+        //         loader: 'file-loader',
+        //         options: {
+        //           name: '[name].[hash].[ext]',
+        //           outputPath: path.resolve(__dirname, 'public/bundleImg'),
+        //           publicPath: '/bundleImg',
+        //         },
+        //       },
+        //       {
+        //         loader: 'image-webpack-loader',
+        //         options: {
+        //           mozjpeg: {
+        //             progressive: true,
+        //             quality: 100,
+        //           }
+        //         }
+        //       }
+        //     ],
+        // }
         ],
     },
     devServer: {
@@ -28,7 +53,7 @@ module.exports = {
         directory: path.join(__dirname, 'public'),
       },
       compress: true,
-      port: 9000,
+      port: 9104,
     },
     externals: {
         'pixi.js': 'PIXI',
