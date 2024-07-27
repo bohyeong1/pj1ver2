@@ -338,9 +338,7 @@ function sec2_enterAni(){
 
 sec2_enterAni()
 
-/////////////////////////////////////////////////////////////////////////////////////////////////sec3
-import {init_p5_cavas} from '../public/eaglesMenu/cheer/p5_canvas.js'
-init_p5_cavas()
+
 
 
 // 스크롤초기화
