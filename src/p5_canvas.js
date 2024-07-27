@@ -13,6 +13,11 @@ const sketch = (p) =>{
     let items = []
     let render
 
+    const images = []
+    for (let i = 1; i <= 21; i++) {
+    images.push(require(`./srcImg/sec5-${i}.jpg`))
+    }
+
     p.setup = function(){
         let canvas = p.createCanvas(sec3_wrapper.clientWidth, sec3_wrapper.clientHeight)
         canvas.parent(sec3_wrapper)
@@ -41,7 +46,7 @@ const sketch = (p) =>{
             let x = p.random(400, p.width - 400)
             let y = p.random(200, p.height - 200)
             // items.push(new Item(x,y, `../../project-img/img/main/sec5/sec5-${i + 1}.jpg`))
-            items.push(new Item(x,y, `../project-img/img/main/sec5/sec5-${i + 1}.jpg`))
+            items.push(new Item(x,y, images[i]))
         }
     
         

@@ -21,31 +21,31 @@ module.exports = {
             loader: 'babel-loader',
             },
         },
-        // {
-        //     test: /\.(jpg|jpeg)$/i,
-        //     include: [
-        //         path.resolve(__dirname, 'src/srcImg'),
-        //       ],
-        //     use: [
-        //       {
-        //         loader: 'file-loader',
-        //         options: {
-        //           name: '[name].[hash].[ext]',
-        //           outputPath: path.resolve(__dirname, 'public/bundleImg'),
-        //           publicPath: '/bundleImg',
-        //         },
-        //       },
-        //       {
-        //         loader: 'image-webpack-loader',
-        //         options: {
-        //           mozjpeg: {
-        //             progressive: true,
-        //             quality: 100,
-        //           }
-        //         }
-        //       }
-        //     ],
-        // }
+        {
+            test: /\.(jpg|jpeg)$/i,
+            include: [
+                path.resolve(__dirname, 'src/srcImg'),
+              ],
+            use: [
+              {
+                loader: 'file-loader',
+                options: {
+                  name: '[name].[hash].[ext]',
+                  outputPath: path.resolve(__dirname, 'public/bundleImg'),
+                  publicPath: '/bundleImg',
+                },
+              },
+              {
+                loader: 'image-webpack-loader',
+                options: {
+                  mozjpeg: {
+                    progressive: true,
+                    quality: 100,
+                  }
+                }
+              }
+            ],
+        }
         ],
     },
     devServer: {
