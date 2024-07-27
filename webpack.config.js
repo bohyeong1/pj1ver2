@@ -32,7 +32,7 @@ module.exports = {
                 options: {
                   name: '[name].[hash].[ext]',
                   outputPath: path.resolve(__dirname, 'public/bundleImg'),
-                  publicPath: '/bundleImg',
+                  publicPath: 'public/bundleImg',
                 },
               },
               {
