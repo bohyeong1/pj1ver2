@@ -1,3 +1,5 @@
+import { gsap } from "gsap"
+
 export function init_p5_cavas(){
 const sec3_wrapper = document.querySelector('.cheer-sector3__container')
 
