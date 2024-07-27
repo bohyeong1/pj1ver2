@@ -41,7 +41,7 @@ const sketch = (p) =>{
             let x = p.random(400, p.width - 400)
             let y = p.random(200, p.height - 200)
             // items.push(new Item(x,y, `../../project-img/img/main/sec5/sec5-${i + 1}.jpg`))
-            items.push(new Item(x,y, `../srcImg/sec5-${i + 1}.jpg`))
+            items.push(new Item(x,y, `./srcImg/sec5-${i + 1}.jpg`))
         }
     
         
