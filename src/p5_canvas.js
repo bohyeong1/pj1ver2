@@ -12,11 +12,8 @@ let engine
 let items = []
 let render
 
-// 맨 위로부터 높이
-const height_bt_top = sec3_wrapper.parentElement.offsetTop
 
-
-function setup(){
+p.setup = function(){
     let canvas = createCanvas(sec3_wrapper.clientWidth, sec3_wrapper.clientHeight)
     canvas.parent(sec3_wrapper)
 
@@ -156,7 +153,7 @@ class Item {
     }
 }
 
-function mouseMoved(){
+p.mouseMoved = function(){
 
     items.forEach((item)=>{
         if(
