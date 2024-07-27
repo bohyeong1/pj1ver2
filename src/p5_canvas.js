@@ -1,5 +1,33 @@
 import { gsap } from "gsap"
 
+import sec5_1 from './srcImg/sec5-1.jpg'
+import sec5_2 from './srcImg/sec5-2.jpg'
+import sec5_3 from './srcImg/sec5-3.jpg'
+import sec5_4 from './srcImg/sec5-4.jpg'
+import sec5_5 from './srcImg/sec5-5.jpg'
+import sec5_6 from './srcImg/sec5-6.jpg'
+import sec5_7 from './srcImg/sec5-7.jpg'
+import sec5_8 from './srcImg/sec5-8.jpg'
+import sec5_9 from './srcImg/sec5-9.jpg'
+import sec5_10 from './srcImg/sec5-10.jpg'
+import sec5_11 from './srcImg/sec5-11.jpg'
+import sec5_12 from './srcImg/sec5-12.jpg'
+import sec5_13 from './srcImg/sec5-13.jpg'
+import sec5_14 from './srcImg/sec5-14.jpg'
+import sec5_15 from './srcImg/sec5-15.jpg'
+import sec5_16 from './srcImg/sec5-16.jpg'
+import sec5_17 from './srcImg/sec5-17.jpg'
+import sec5_18 from './srcImg/sec5-18.jpg'
+import sec5_19 from './srcImg/sec5-19.jpg'
+import sec5_20 from './srcImg/sec5-20.jpg'
+import sec5_21 from './srcImg/sec5-21.jpg'
+
+const images = [
+  sec5_1, sec5_2, sec5_3, sec5_4, sec5_5, sec5_6, sec5_7, sec5_8, sec5_9, sec5_10,
+  sec5_11, sec5_12, sec5_13, sec5_14, sec5_15, sec5_16, sec5_17, sec5_18, sec5_19,
+  sec5_20, sec5_21
+];
+
 const sketch = (p) =>{
     const sec3_wrapper = document.querySelector('.cheer-sector3__container')
 
@@ -12,11 +40,6 @@ const sketch = (p) =>{
     let engine
     let items = []
     let render
-
-    const images = []
-    for (let i = 1; i <= 21; i++) {
-    images.push(require(`./srcImg/sec5-${i}.jpg`))
-    }
 
     p.setup = function(){
         let canvas = p.createCanvas(sec3_wrapper.clientWidth, sec3_wrapper.clientHeight)
