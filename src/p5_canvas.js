@@ -1,4 +1,5 @@
 import { gsap } from "gsap"
+import ScrollTrigger from "gsap/ScrollTrigger"
 
 import sec5_1 from './srcImg/sec5-1.jpg'
 import sec5_2 from './srcImg/sec5-2.jpg'
@@ -26,7 +27,7 @@ const images = [
   sec5_1, sec5_2, sec5_3, sec5_4, sec5_5, sec5_6, sec5_7, sec5_8, sec5_9, sec5_10,
   sec5_11, sec5_12, sec5_13, sec5_14, sec5_15, sec5_16, sec5_17, sec5_18, sec5_19,
   sec5_20, sec5_21
-];
+]
 
 const sketch = (p) =>{
     const sec3_wrapper = document.querySelector('.cheer-sector3__container')
