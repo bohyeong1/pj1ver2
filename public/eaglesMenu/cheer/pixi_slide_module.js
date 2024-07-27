@@ -1,18 +1,18 @@
 import { gsap } from "gsap"
-// import s4_3 from '../project-img/img/main/sec4/s4-3.jpg'
-// import cheer1 from '../project-img/img/cheer/cheer1.jpg'
-// import sec5_7 from '../project-img/img/main/sec5/sec5-7.jpg'
-// import s4_4 from '../project-img/img/main/sec4/s4-4.jpg'
-// import sec5_3 from '../project-img/img/main/sec5/sec5-3.jpg'
-// import sec5_19 from '../project-img/img/main/sec5/sec5-19.jpg'
-// import cheer6 from '../project-img/img/cheer/cheer6.jpg'
-// import cheer8 from '../project-img/img/cheer/cheer8.jpg'
-// import fil1 from '../project-img/img/pixi/파동1.jpg'
-// import fil2 from '../project-img/img/pixi/파동2.jpg'
+// import s4_3 from '../../project-img/img/main/sec4/s4-3.jpg'
+// import cheer1 from '../../project-img/img/cheer/cheer1.jpg'
+// import sec5_7 from '../../project-img/img/main/sec5/sec5-7.jpg'
+// import s4_4 from '../../project-img/img/main/sec4/s4-4.jpg'
+// import sec5_3 from '../../project-img/img/main/sec5/sec5-3.jpg'
+// import sec5_19 from '../../project-img/img/main/sec5/sec5-19.jpg'
+// import cheer6 from '../../project-img/img/cheer/cheer6.jpg'
+// import cheer8 from '../../project-img/img/cheer/cheer8.jpg'
+// import fil1 from '../../project-img/img/pixi/파동1.jpg'
+// import fil2 from '../../project-img/img/pixi/파동2.jpg'
 
 export async function init_pixi(wrapper_class,canvas_class){
     ///슬라이더 요소 imgs    
-    const img_data = ['../project-img/img/main/sec4/s4-3.jpg', '../project-img/img/cheer/cheer1.jpg', '../project-img/img/main/sec5/sec5-7.jpg', '../project-img/img/main/sec4/s4-4.jpg', '../project-img/img/main/sec5/sec5-3.jpg', '../project-img/img/main/sec5/sec5-19.jpg', '../project-img/img/cheer/cheer6.jpg', '../project-img/img/cheer/cheer8.jpg']
+    const img_data = ['../../project-img/img/main/sec4/s4-3.jpg', '../../project-img/img/cheer/cheer1.jpg', '../../project-img/img/main/sec5/sec5-7.jpg', '../../project-img/img/main/sec4/s4-4.jpg', '../../project-img/img/main/sec5/sec5-3.jpg', '../../project-img/img/main/sec5/sec5-19.jpg', '../../project-img/img/cheer/cheer6.jpg', '../../project-img/img/cheer/cheer8.jpg']
     const sub_text = ['Ha Ji Won', 'Kim Yeon Jeong','Park So Yeong','Kim Na Yeon','Woo Su Han','Lee Mi Rae','Choi Seok Hwa','Lee Ho Eun']
     
     const wrapper = document.querySelector(`.${wrapper_class}`)  ////래퍼
@@ -50,7 +50,7 @@ export async function init_pixi(wrapper_class,canvas_class){
 
     /////////////////////////// 필터 생성////////////////////////////////
     // 슬라이드 이동 필터
-    const disp_sprite = new PIXI.Sprite.from('../project-img/img/pixi/파동1.jpg')
+    const disp_sprite = new PIXI.Sprite.from('../../project-img/img/pixi/파동1.jpg')
     const disp_filter = new PIXI.filters.DisplacementFilter(disp_sprite)
 
     disp_sprite.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT
@@ -61,7 +61,7 @@ export async function init_pixi(wrapper_class,canvas_class){
     disp_sprite.scale.y = 0
 
     // 마우스 이동 필터
-    const disp_sprite_2 = PIXI.Sprite.from('../project-img/img/pixi/파동2.jpg')
+    const disp_sprite_2 = PIXI.Sprite.from('../../project-img/img/pixi/파동2.jpg')
     const disp_filter_2 = new PIXI.filters.DisplacementFilter(disp_sprite_2)
 
 

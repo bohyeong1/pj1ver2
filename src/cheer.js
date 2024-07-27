@@ -73,7 +73,7 @@ function sec1_load1(){
 ///////////////////////////////////////img 에니메이션
 
 /////////////pixi로 만든 슬라이더 불러오기
-import {init_pixi} from './pixi_slide_module.js'
+import {init_pixi} from '../public/eaglesMenu/cheer/pixi_slide_module.js'
 
 
 function sec1_imgAni(){
