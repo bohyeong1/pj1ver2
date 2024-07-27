@@ -30,8 +30,10 @@ const images = [
 ]
 
 const sketch = (p) =>{
-    const sec3_wrapper = document.querySelector('.cheer-sector3__container')
 
+    gsap.registerPlugin(ScrollTrigger)
+
+    const sec3_wrapper = document.querySelector('.cheer-sector3__container')
     const Engine = Matter.Engine
     const World = Matter.World
     const Bodies = Matter.Bodies
