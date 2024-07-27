@@ -1,7 +1,4 @@
 import { gsap } from "gsap"
-import p5 from "https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"
-import Matter from "https://cdn.jsdelivr.net/npm/matter-js@0.20.0/build/matter.min.js"
-
 
 const sketch = (p) =>{
     const sec3_wrapper = document.querySelector('.cheer-sector3__container')
