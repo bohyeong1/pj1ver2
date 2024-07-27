@@ -31,7 +31,7 @@ module.exports = {
                 loader: 'file-loader',
                 options: {
                   name: '[name].[hash].[ext]',
-                  outputPath: 'bundleImg', 
+                  outputPath: '../bundleImg', 
                   publicPath: '/bundleImg',
                 },
               },
