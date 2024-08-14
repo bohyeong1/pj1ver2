@@ -1,1 +1,1 @@
-motiona lib(gsap, pixi.js, p5.js)연습 및 경험해보기 // weppack & babel 연습 및 경험해보기 // <br> gsap.plugin(유료)버전 저작권 위배되지 않고 번들링(웹팩)하여 배포하는 방법(vercel 배포 시 빌드 과정에서 번들링 하는식으로) // <br> vercel환경에서 번들 -> 빌드 -> 배포를 통해 gsap 코드 외부 노출 안되게 하기  
+motiona lib(gsap, pixi.js, p5.js)연습 및 경험해보기 // weppack & babel 연습 및 경험해보기 // <br> gsap.plugin(유료)버전 저작권 위배되지 않고 번들링(웹팩)하여 배포하는 방법(vercel 배포 시 빌드 과정에서 번들링 하는식으로) // <br> vercel(컴파일 단계에서) 번들 -> 빌드 -> 배포를 통해 gsap 코드 외부 노출 안되게 하기  
